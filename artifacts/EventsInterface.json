@@ -1,0 +1,46 @@
+{
+  "contractName": "EventsInterface",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "_beneficiary",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "_wearableIdKey",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "_wearableId",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_issuedId",
+          "type": "uint256"
+        }
+      ],
+      "name": "Issue",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582016cf159b990268f36b74342ff8a9ab83f788f87a472bd48289da9c0ab87228d564736f6c634300050b0032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582016cf159b990268f36b74342ff8a9ab83f788f87a472bd48289da9c0ab87228d564736f6c634300050b0032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
